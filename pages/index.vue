@@ -54,7 +54,7 @@
 import { VTreeview } from "vuetify/labs/VTreeview";
 import { useSidebarData } from "@/store/sidebarData";
 const store = useSidebarData();
-const drawer = ref<boolean>(true);
+const drawer = ref<boolean>(false);
 const open = ref<string[]>(["Users"]);
 const fetchError = ref<boolean | null>(null);
 const loading = ref<boolean | null>(null);
